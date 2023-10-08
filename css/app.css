@@ -1,12 +1,15 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-    margin: 0 auto;
     background-color: teal;
 }
 
 .grid {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(7);
+    grid-template-columns: repeat(7, 1fr);
 }
 
 .box {
@@ -14,7 +17,23 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: teal;
-    font-size: 26px;
-    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box-standard {
+    background-color: rgb(0, 165, 165);
+}
+
+.box-fizz {
+    background-color: aquamarine;
+}
+
+.box-buzz {
+    background-color: goldenrod;
+}
+
+.box-fizz-buzz {
+    background-color: crimson;
 }
