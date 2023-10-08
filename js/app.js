@@ -15,7 +15,7 @@ for (let i = 1; i < 101; i++) {
     // fizz
     const boxDOMElementfizz = document.createElement('div')
     boxDOMElementfizz.classList.add('box', 'box-fizz')
-    boxDOMElementfizz.innerHTML = 'fizz'
+    boxDOMElementfizz.innerHTML = 'Fizz'
 
     // buzz
     const boxDOMElementBuzz = document.createElement('div')
@@ -25,7 +25,7 @@ for (let i = 1; i < 101; i++) {
     // fizzBuzz
     const boxDOMElementfizzBuzz = document.createElement('div')
     boxDOMElementfizzBuzz.classList.add('box', 'box-fizz-buzz')
-    boxDOMElementfizzBuzz.innerHTML = 'fizzBuzz'
+    boxDOMElementfizzBuzz.innerHTML = 'FizzBuzz'
 
 
     if (fizz === 0 && buzz === 0) {
@@ -42,7 +42,7 @@ for (let i = 1; i < 101; i++) {
     } else {
     // console.log(i)
         gridDOMElement.append(boxDOMElementStandard)
-}
+    }
 
 }
 
