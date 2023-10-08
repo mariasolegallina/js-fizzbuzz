@@ -1,0 +1,20 @@
+body {
+    margin: 0 auto;
+    background-color: teal;
+}
+
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(7);
+}
+
+.box {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: teal;
+    font-size: 26px;
+    font-weight: 700;
+}
